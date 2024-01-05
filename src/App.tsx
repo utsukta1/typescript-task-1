@@ -10,6 +10,7 @@ import Task4 from './views/Task4/task4'
 import Task5 from './views/Task5/task5'
 import Task6 from './views/Task6/task6'
 
+
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<Navbar />}>

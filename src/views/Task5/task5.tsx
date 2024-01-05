@@ -34,8 +34,6 @@ function Task5() {
 
                 <Questions title="Build an application that shows the temperatures for kelvin, celsius
                     and fahrenheit"/>
-
-
             </div>
             <main>
                 <input

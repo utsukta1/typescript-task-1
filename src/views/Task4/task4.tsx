@@ -4,8 +4,8 @@ import './task4.css';
 import { formatNumberWithOptions } from '../../utils/utils';
 
 interface NumberFormatProps {
-    value: number;
-    userSeparator: string;
+    value?: number;
+    userSeparator?: string;
 }
 
 const Task4: React.FC<NumberFormatProps> = ({ userSeparator = ',' }) => {
