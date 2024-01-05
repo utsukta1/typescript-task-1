@@ -1,29 +1,24 @@
-.task2-container {
+.container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+
+    font-family: Arial, sans-serif;
 }
 
 .question {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     text-align: center;
     margin-bottom: 20px;
     font-size: 1.2em;
-}
-
-.form-container {
-    width: 300px;
-    margin-bottom: 20px;
 }
 
 form {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 300px;
+    margin-bottom: 20px;
 }
 
 label {
@@ -45,7 +40,7 @@ select:focus {
     border-color: #333;
 }
 
-.formatted-date {
+p {
     font-size: 1.2em;
     margin-top: 20px;
 }

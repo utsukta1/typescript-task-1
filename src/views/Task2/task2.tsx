@@ -24,7 +24,7 @@ function Task2() {
                 />
             </div>
 
-            <main className='task2-container'>
+            <main className='container'>
                 <form>
                     <label>
                         Choose Date:
